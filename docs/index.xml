@@ -11,19 +11,18 @@
     
     
     <item>
-      <title>About Us</title>
+      <title></title>
       <link>http://something-fresh.org/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://something-fresh.org/about/</guid>
-      <description>Shared Value •	No Licenses or Services. We sell value, not time/IP •	No Commissions
-Customer success teams are rewarded based on the success of engagements       GyShiDo •	Relentless Focus
+      <description>About Us    Our Values    Shared Value •	No Licenses or Services. We sell value, not time/IP •	No Commissions
+Customer success teams are rewarded based on the success of engagements         GyShiDo •	Relentless Focus
 •	Single Task
 •	Boring Consistency
 •	No Agenda-Less Meetings
 •	Follow up
-No Assholes!
-      Lean First •	Failure is inevitable, declare it quickly and learn fast</description>
+        Lean First •	Failure is inevitable, declare it quickly and learn fast</description>
     </item>
     
     <item>
@@ -33,6 +32,15 @@ No Assholes!
       
       <guid>http://something-fresh.org/services/</guid>
       <description>Kubernetes Architecure &amp;amp; Design Infrastructure Delivery Pipelines as Service Fully Managed Operations </description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>http://something-fresh.org/technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://something-fresh.org/technology/</guid>
+      <description> </description>
     </item>
     
   </channel>

@@ -21,6 +21,10 @@
   </url>
   
   <url>
+    <loc>http://something-fresh.org/technology/</loc>
+  </url>
+  
+  <url>
     <loc>http://something-fresh.org/</loc>
     <priority>0</priority>
   </url>
