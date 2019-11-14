@@ -1,0 +1,6 @@
+{{ with  .Page.Resources.ByType "image" }}
+	{{ range . }}
+
+<img src="{{ .RelPermalink }}" style="height: 64px; padding-right: 30px; padding-top: 10px" title="{{index  (split .Name ".") 0 }}">
+  {{ end }}
+{{ end }}

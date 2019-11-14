@@ -1,6 +1,6 @@
 ---
 title: Services
-
+layout: services
 ---
 
 {{< subtitle4 " Kubernetes Architecure & Design" "my-title-id">}}

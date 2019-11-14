@@ -1,16 +1,23 @@
-<article class="media icon-box">
-<figure class="media-right">
-<p class="image">
-<img src="/images/illustrations/icons/doc-sync.svg">
-</p>
-</figure>
-<div class="media-content mt50 ">
-<div class="content">
-<p>
-<span class="icon-box-title">{{.Get "title"}}</span>
-
-<span class="icon-box-text">{{.Inner}}</span>
-</p>
+<div class="columns">
+  <!-- <article class="media icon-box"> -->
+  <div class="column is-3">
+    <figure class="media-left">
+      <p class="image">
+        <img src="/images/{{.Get "img" }}" style="height: {{ default "150px" (.Get "height") }} ; display: block;
+          margin-left: auto; margin-right: auto; margin-top: auto;">
+      </p>
+    </figure>
+  </div>
+  <div class="column is-9">
+    <div class="media-content mt50">
+      <div class="content">
+        <p>
+          <h3>{{.Get "title"}}</h3>
+          <span class="icon-box-text">{{.Inner}}
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- </article> -->
 </div>
-</div>
-</article>

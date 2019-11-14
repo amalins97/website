@@ -1,4 +1,4 @@
-{{- $section1 := .Site.Params.section1 }}
+{{- $section1 := .Site.Params.services }}
 {{- $title    := index $section1 "title" }}
 {{- $subtitle := index $section1 "subtitle" }}
 {{- $tiles    := index $section1 "tiles" }}
@@ -14,7 +14,7 @@
       <div class="columns">
         {{- range $tiles }}
         <div class="column is-one-third">
-          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+          <div class="feature-card is-bordered has-text-centered">
             <div class="card-title">
               <h4>{{ .title }}</h4>
             </div>

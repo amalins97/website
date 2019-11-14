@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ partial "navbar.html" . }}
+    {{ if .Site.Params.services }}
+    {{ partial "section1.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+    {{ end }}
+
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+
+{{ end }}
