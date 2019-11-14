@@ -17,7 +17,7 @@ params:
   navbarlogo:
     # Logo (from static/images/logos/___)
     image: logos/logo_big.png
-    link: /contact
+    link: /
   font:
     name: "Open Sans"
     sizes: [400, 600]
@@ -29,7 +29,7 @@ params:
     # Button text
     buttontext: Get in touch
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "/contact"
     # Hero image (from static/images/___)
     image: platform.png
     # Footer logos (from static/images/logos/clients/___.svg)
