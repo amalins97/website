@@ -1,5 +1,5 @@
 baseURL: http://something-fresh.org/
-publishDir: docs
+publishDir: public
 languageCode: en-us
 title: flanksource
 theme: hugo-fresh
