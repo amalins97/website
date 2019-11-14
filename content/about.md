@@ -2,9 +2,8 @@
 ---
 
 ---
-{{< title "About Us" >}}
-
-{{< subtitle1 "Our Values" >}}
+{{< title "Whats in a name?" >}}
+{{< title "Our Values" >}}
 
 {{< article-left title="Shared Value" img="shared_value.svg" height="100px">}}
 •	No Licenses or Services. We sell value, not time/IP <br>

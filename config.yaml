@@ -25,13 +25,13 @@ params:
     # Main hero title
     title: Kubernetes. Simplified.
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: We navigate the Cloud Native Landscape on your behalf - while wrapping it in tested Infrastructure Continuous  Delivery Pipeline.
     # Button text
     buttontext: Get in touch
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: kubernetes_simple.svg
+    image: platform.png
     # Footer logos (from static/images/logos/clients/___.svg)
     # clientlogos:
     #   - systek
@@ -79,20 +79,20 @@ params:
         text: This is some explanatory text that is on two rows
         url: /
         buttonText: Get started
-  section2:
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-      - title: Powerful and unified interface
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-        # Icon (from /images/illustrations/icons/___.svg)
-        icon: laptop-globe
-      - title: Cross-device synchronisation
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-        icon: doc-sync
-      - title: Nomad system
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-        icon: mobile-feed
+  # section2:
+  #   title: You're here because you want the best
+  #   subtitle: And we know it
+  #   features:
+  #     - title: Powerful and unified interface
+  #       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #       # Icon (from /images/illustrations/icons/___.svg)
+  #       icon: laptop-globe
+  #     - title: Cross-device synchronisation
+  #       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #       icon: doc-sync
+  #     - title: Nomad system
+  #       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #       icon: mobile-feed
   # section3:
   #   title: One platform
   #   subtitle: To rule them all
@@ -132,34 +132,29 @@ params:
       column1:
         title: "About Us"
         links:
-          - text: Discover features
-            link: /
-          - text: Why choose our product?
-            link: /
-          - text: Compare features
-            link: /
-          - text: Our roadmap
-            link: /
-          - text: AGB
-            link: /agb
+          - text: Values
+            link: /about
+          - text: Careers
+            link: https://careers.flanksource.com
+          - text: Contact Us
+            link: /contact
+
       column2:
         title: "Services"
         links:
-          - text: Get started
-            link: /
-          - text: User guides
-            link: /
-          - text: Admin guide
-            link: /
-          - text: Developers
-            link: /
+          - text: Architecture & Design
+            link: /services
+          - text: Managed Operations
+            link: /services
+          - text: Infrastructure Pipelines
+            link: /services
+
       column3:
         title: "Open Source"
         links:
           - text: konfigadm
-            link: /blog/first
-          - text: platform
-            link: /blog/second
-
+            link: https://github.com/moshloop/konfigadm
+          - text: cluster-api
+            link: https://github.com/kubernetes-sigs/cluster-api
           - text: image-builder
-            link: /blog/second
+            link: https://github.com/kubernetes-sigs/image-builder
