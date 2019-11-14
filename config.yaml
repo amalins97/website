@@ -17,7 +17,7 @@ params:
   navbarlogo:
     # Logo (from static/images/logos/___)
     image: logos/logo_big.png
-    link: /
+    link: /contact
   font:
     name: "Open Sans"
     sizes: [400, 600]
