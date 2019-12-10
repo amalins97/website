@@ -66,17 +66,17 @@ params:
     tiles:
       - title: Architecture & Strategy
         icon: kubernetes
-        text: This is some explanatory text that is on two rows
+        text: Embarking on your journey, or just need a production readiness assessment - we can help.
         url: /
         buttonText: Get started
-      - title: Managed Operations
-        icon: laptop-cloud
-        text: This is some explanatory text that is on two rows
+      - title: Managed Platform Team
+        icon: team
+        text: A dedicated team of experienced SRE's available 24x7, up-levelling your operational maturity.
         url: /
         buttonText: Get started
       - title: Infrastructure Pipelines
-        icon: plug-cloud
-        text: This is some explanatory text that is on two rows
+        icon: pipeline
+        text: Custom CD pipelines for infrastructure that enable GitOps driven zero-touch deployments.
         url: /
         buttonText: Get started
   # section2:

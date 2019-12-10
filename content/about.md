@@ -2,7 +2,7 @@
 ---
 
 ---
-{{< title "Whats in a name?" >}}
+<!-- {{< title "Whats in a name?" >}} -->
 {{< title "Our Values" >}}
 
 {{< article-left title="Shared Value" img="shared_value.svg" height="100px">}}
