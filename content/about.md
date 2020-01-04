@@ -1,7 +1,8 @@
 
 ---
 
----
+flanksource is a niche consultancy focusing exclusively on Kubernetes and the Cloud Native ecosystem. We help companies navigate the CNCF landscape by evaluating and integrating technology into an infrastructure continuous delivery pipeline, tailored to each customer's particular environment and stack.
+
 <!-- {{< title "Whats in a name?" >}} -->
 {{< title "Our Values" >}}
 
