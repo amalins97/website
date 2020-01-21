@@ -1,0 +1,60 @@
+<hr/>
+
+
+<div class="column is-12">
+  <div class="column is-12 has-text-centered"> <h3 class="subtitle is-5 is-muted ">The road to production</h3></div>
+  <div class="column is-2"></div>
+<div class="timeline column is-8 ">
+  <header class="timeline-header">
+    <span class="tag is-medium is-primary">Change</span>
+  </header>
+  <div class="timeline-item">
+    <div class="timeline-marker is-icon">
+
+    </div>
+    <div class="timeline-content">
+      <p class="heading">Stage 1: Integration</p>
+      <p>Running fully in the public cloud, this initial stage runs completely in docker containers using Kind and focuses
+        on testing the various components that make up the platform. <br><br>
+        Tests are run against various versions and combinations of Kubernetes with a packaged binary being published only after all tests pass.
+       </p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker is-icon">
+    </div>
+    <div class="timeline-content">
+      <p class="heading">Stage 2: Infrastructure Lab</p>
+      <p>During the infrastructure integration, the binary produced in Stage 1 is used to provision and test against infrastructure in multiple labs that mirror
+        our customers environments. <br>
+        </p>
+    </div>
+  </div>
+  <header class="timeline-header">
+    <span class="tag is-danger">Firewall</span>
+  </header>
+  <div class="timeline-item">
+    <div class="timeline-marker is-icon">
+    </div>
+    <div class="timeline-content">
+      <p class="heading">Stage 3: Staging</p>
+      <p>The staging pipeline runs behind the customers Firewall on customer-owned and managed infrastructure. At this stage the focus is on testing validated configuration produced in Stage 1 & 2 with the policies and configuration specific to each customer. <br><br>
+      The staging pipeline usually includes custom VM images, security policies and scans with a representative customer workload deployed and tested both for functionality and performance regressions before being submitted for approval for deployment to production. </p>
+    </div>
+  </div>
+   <div class="timeline-item">
+    <div class="timeline-marker is-icon">
+
+    </div>
+    <div class="timeline-content">
+      <p class="heading">Stage 4: Production Rollout</p>
+      <p>With Immutable Infrastructure applied at the cluster-level, we use Cluster API in a GitOps Zero Touch Prod pipeline to deploy new validated clusters,
+      slowly migrating traffic and workloads to them, and finally destroying old clusters to eliminate the risks of in-place change and configuration drift.
+      </p>
+    </div>
+  </div>
+  <div class="timeline-header">
+    <span class="tag is-medium is-primary">Production</span>
+  </div>
+</div>
+
