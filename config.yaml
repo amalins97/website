@@ -4,7 +4,7 @@ languageCode: en-us
 title: flanksource
 theme: hugo-fresh
 enableInlineShortcodes: true
-googleAnalytics: #Put in your tracking code without quotes like this: UA-XXXXXX...
+googleAnalytics: UA-157742796-1
 #Disables warningss
 disableKinds: -taxonomy
   -taxonomyTerm
