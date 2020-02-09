@@ -78,7 +78,7 @@ params:
         text: Embarking on your journey, or just need a production readiness assessment - we can help.
         url: /contact
         buttonText: Learn More
-      - title: Managed Platform Team
+      - title: Platform Operations
         icon: team
         text: A dedicated team of experienced SRE's available 24x7, up-levelling your operational maturity.
         url: /platform-ops
