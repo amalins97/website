@@ -1,3 +1,107 @@
 @import "bulma/bulma"
 @import "fresh/core"
 @import "bulma/sass/components/timeline"
+
+
+.blog
+  max-width: 750px
+  p
+    font-size: 18px;
+    line-height: 1.75;
+    margin-bottom: 20px;
+
+  img
+     padding-bottom: 30px;
+
+  li
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+
+  blockquote>p,li>p
+    margin-bottom: 0px;
+
+
+.centered img
+  display: block
+  margin: auto
+
+h5
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    margin-top: 0.5rem
+    font-size: 24px;
+    color: $grey-dark;
+
+h4
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem
+    font-size: 28px;
+    color: $grey-darker;
+
+h3
+    font-family: 'Open Sans', sans-serif;
+    color: $grey-darker;
+    font-size: 27px;
+    font-weight: 600;
+    height: 37px;
+    line-height: 37.8px;
+    margin-block-end: 25px;
+    margin-block-start: 25px;
+    margin-bottom: 25px;
+
+.footer-header h3
+  color: white
+
+blockquote
+  background-color: $content-blockquote-background-color
+  border-left: $content-blockquote-border-left
+  padding: $content-blockquote-padding
+  margin: $content-blockquote-padding
+  font-style: italic
+  max-width: 900px
+
+ol
+  list-style: decimal outside
+  margin-left: 2em
+  margin-top: 1em
+ul
+  list-style: disc outside
+  margin-left: 2em
+  margin-top: 1em
+  ul
+    list-style-type: circle
+    margin-top: 0.5em
+    ul
+      list-style-type: square
+
+
+table
+  td,
+  th
+    border: $content-table-cell-border
+    border-width: $content-table-cell-border-width
+    padding: $content-table-cell-padding
+    vertical-align: top
+  th
+    color: $content-table-cell-heading-color
+    text-align: left
+  thead
+    td,
+    th
+      border-width: $content-table-head-cell-border-width
+      color: $content-table-head-cell-color
+  tfoot
+    td,
+    th
+      border-width: $content-table-foot-cell-border-width
+      color: $content-table-foot-cell-color
+  tbody
+    tr
+      &:last-child
+        td,
+        th
+          border-bottom-width: 0

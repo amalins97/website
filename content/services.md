@@ -7,6 +7,6 @@ layout: services
 
 {{< subtitle4 "Infrastructure Delivery Pipelines as Service" "my-title-id">}}
 
-{{< subtitle4 "Fully Managed Operations" "my-title-id">}}
+{{< subtitle4 "Platform Operations" "my-title-id">}}
 
 

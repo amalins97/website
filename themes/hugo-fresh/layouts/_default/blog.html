@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "meta.html" . }}
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    {{ partial "css.html" . }}
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+
+{{ partial "navbar.html" . }}
+
+<section class="section is-medium content-large">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+          {{ range first 10 .Pages }}
+      <article class="pb-20">
+        <!-- this <div> includes the title summary -->
+        <div>
+          <h2 class="subtitle is-3" style="margin-bottom: 5px" ><a href="{{ .RelPermalink }}">{{ .Title }}</a>   </h2>
+
+          <span class="has-text-grey">
+          Published <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time> by {{.Params.author}}</span><br>
+        {{ if .Params.categories }}
+
+            {{ T "categories" }}
+            <em>
+                {{ range $i, $c := .Params.categories }}
+                    <a href="{{ relLangURL ( printf "categories/%s" ( $c | urlize ) ) }}"><span class="tag is-light">{{$c}}</span></a>
+                {{ end }}
+            </em>
+          <br>
+          {{ end }}
+
+          {{/* {{ .Summary }} */}}
+        </div>
+        {{/* {{ if .Truncated }}
+        <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+        <div>
+          <a href="{{ .RelPermalink }}">Read More…</a>
+        </div>
+        {{ end }} */}}
+      </article>
+  {{ end }}
+
+    </div>
+
+  </div>
+</section>
+
+
+    {{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+    {{ end }}
+
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+   {{ partial "javascript.html" . }}
+  </body>
+</html>

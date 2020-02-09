@@ -18,7 +18,7 @@ params:
     image: logos/logo_big.png
     link: /
   font:
-    name: "Open Sans"
+    name: "Roboto"
     sizes: [400, 600]
   hero:
     # Main hero title
@@ -64,23 +64,25 @@ params:
           url: https://github.com/flanksource/platform-cli
         - title: Image Builder
           url: https://github.com/kubernetes-sigs/image-builder
+    - title: Blog
+      url: /blog
     - title: Careers
       url: https://careers.flanksource.com
       button: true
-  services:
+  section1:
     title: Services
     subtitle:
     tiles:
-      # - title: Architecture & Strategy
-      #   icon: kubernetes
-      #   text: Embarking on your journey, or just need a production readiness assessment - we can help.
-      #   url: /
-      # buttonText: Get started
+      - title: Architecture & Strategy
+        icon: kubernetes
+        text: Embarking on your journey, or just need a production readiness assessment - we can help.
+        url: /contact
+        buttonText: Learn More
       - title: Managed Platform Team
         icon: team
         text: A dedicated team of experienced SRE's available 24x7, up-levelling your operational maturity.
-        url: /
-        buttonText: Get started
+        url: /platform-ops
+        buttonText: Learn More
       - title: Infrastructure Pipelines
         icon: pipeline
         text: Custom CD pipelines for infrastructure that enable GitOps driven zero-touch deployments.
