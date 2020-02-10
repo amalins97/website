@@ -8,11 +8,14 @@ layout: post
 
 Flanksource operations are a little different to traditional vendor support.
 
-> Our operations have a singular focus: increasing and maintaining adaptive capacity within the platform, and more importantly within the team.
+> Flanksource operations have a singular focus: increasing and maintaining adaptive capacity within the platform, and more importantly within the team.
 
 As resilience engineering practitioners we subscribe to the principle, that the ability to adapt to change in complex systems is paramount. While we try and build robust and reliable systems that are designed to withstand known failure modes - we accept that it is the unknowns that ultimately bring down most systems.
 
-To learn more about resilience engineering see David Wood's <i class="fa fa-file-pdf"></i><a href="https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf"> How Complex Systems Fail</a> and  Lorin Hochstein's awesome <a href="https://github.com/lorin/resilience-engineering/blob/master/intro.md">Introduction</a>
+To learn more about resilience engineering see:
+
+* David Wood's <i class="fa fa-file-pdf"></i><a href="https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf"> How Complex Systems Fail</a>
+* Lorin Hochstein's awesome <a href="https://github.com/lorin/resilience-engineering/blob/master/intro.md">Introduction</a>
 
 <h3 class="subtitle is-4"><span><i class="fa fa-ban"></i></span> No Email and Phone Support</h3>
 
