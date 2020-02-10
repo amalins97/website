@@ -17,7 +17,7 @@ To learn more about resilience engineering see:
 * David Wood's <i class="fa fa-file-pdf"></i><a href="https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf"> How Complex Systems Fail</a>
 * Lorin Hochstein's awesome <a href="https://github.com/lorin/resilience-engineering/blob/master/intro.md">Introduction</a>
 
-<h3 class="subtitle is-4"><span><i class="fa fa-ban"></i></span> No Email and Phone Support</h3>
+<h3 class="subtitle is-4"><span><i class="fa fa-ban"></i></span> More than Email and Phone Support</h3>
 
 We don't provide email or phone support. The traditional model of support where a ticket is opened and assigned to a random on-call engineer is deeply flawed. A random engineer cannot reconstruct a picture of a complex system - both as designed and in its current state in a short amount of time. This leads to long backwards and forwards conversations requesting logs, screen-sharing and often resorting to trial and error to resolve an issue.
 
