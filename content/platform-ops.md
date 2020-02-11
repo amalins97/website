@@ -2,6 +2,7 @@
 ---
 title: Platform Operations
 layout: post
+disqus: false
 ---
 
 {{< title1 "Platform Operations" "A dedicated team of engineers, built upon resilience engineering principles" >}}
@@ -25,7 +26,7 @@ We don't provide email or phone support. The traditional model of support where 
 
 Flanksource can act as a dedicated, standalone platform operations team - However our preferred approach is to fully integrate into your existing teams. When integrated into your team Flanksource engineers feel your pain, and work alongside your engineers committing to the same pipelines and troubleshooting using the same tools.
 
->  <img src="https://github.com/open-policy-agent/opa/blob/master/logo/logo-144x144.png?raw=true" style="width: 48px; float: left; padding-right: 5px; padding-top: 20px"> Talk to us about how we use GitOps and Open Policy Agent to implement 2-man rules that satisfy audit and governance requirements for even the strictest financial and health environments.
+>  <img src="/images/opa.png" style="width: 48px; float: left; padding-right: 5px; padding-top: 20px"> Talk to us about how we use GitOps and Open Policy Agent to implement 2-man rules that satisfy audit and governance requirements for even the strictest financial and health environments.
 
 <h3 class="subtitle is-4"><span><i class="fa fa-cogs" aria-hidden="true"></i></span> Technology Agnostic</h3>
 

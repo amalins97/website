@@ -6,7 +6,7 @@ slug: kubernetes-is-not-container-orchestrator
 layout: post
 author: Moshe Immerman
 draft: false
-readingtime: 3
+disqus: true
 ---
 
 

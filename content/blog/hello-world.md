@@ -5,6 +5,7 @@ description: Launching Flanksource
 slug: hello-world
 layout: post
 author: Moshe Immerman
+disqus: true
 draft: false
 ---
 

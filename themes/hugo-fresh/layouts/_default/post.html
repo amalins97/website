@@ -27,7 +27,12 @@
     {{ end }}
 
 
+
+
+
     {{ partial "javascript.html" . }}
+
+  {{if .Params.disqus}}
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e4247607f99b88e"></script>
 <script>
 (function() { // DON'T EDIT BELOW THIS LINE
@@ -37,6 +42,6 @@ s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
-
+{{end}}
   </body>
 </html>
