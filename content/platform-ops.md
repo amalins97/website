@@ -32,4 +32,4 @@ Flanksource can act as a dedicated, standalone platform operations team - Howeve
 
 We are technology agnostic (As long as it's kubernetes) - Supporting pure upstream Kubernetes, OpenShift, Essentials PKS, EKS, GKE, AKS.
 
-See [Technology](./technologies) for the list of technologies we currently work with.
+See [Technology](./technology) for the list of technologies we currently work with.
