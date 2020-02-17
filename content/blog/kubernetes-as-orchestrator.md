@@ -1,8 +1,8 @@
 ---
 title: "Kubernetes is NOT a container orchestrator"
 date: 2020-02-10T09:39:23+02:00
-description: Launching Flanksource
-slug: kubernetes-is-not-container-orchestrator
+description: Kubernetes is NOT a container orchestrator
+slug: kubernetes-is-not-a-container-orchestrator
 layout: post
 author: Moshe Immerman
 draft: false
@@ -28,6 +28,8 @@ Kubernetes' ascension can be more readily explained by the amazing and passionat
 
 ### Commoditizing Control Theory
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kubernetes is a platform for building platforms. It&#39;s a better place to start; not the endgame.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/935252923721793536?ref_src=twsrc%5Etfw">November 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 At it's core Kubernetes is an enterprise-ready, programmable [hierarchical control system](https://en.wikipedia.org/wiki/Hierarchical_control_system) that consists of dozens of [closed feedback loops](https://en.wikipedia.org/wiki/Control_theory#Open-loop_and_closed-loop_(feedback)_control). These work together to create a system that, while complex at first glance, is transparent, consistent and elegantly simple once you understand the underlying theory.
 
 
@@ -47,25 +49,27 @@ At it's core Kubernetes is an enterprise-ready, programmable [hierarchical contr
 
 [Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) and custom resources have commoditized building control loops for anything from [virtual machines](https://kubevirt.io/) to [video encoding and transmission systems](https://youtu.be/7g4da6-JXfE).
 
-To learn more about control theory watch AWS Principal Engineer Colm MacCárthaigh's talk on [PID Loops and the Art of Keeping Systems Stable](https://www.youtube.com/watch?v=3AxSwCC7I4s) or Marc Brookers [blog](https://brooker.co.za/blog/)
+To learn more about control theory see:
+
+* Colm MacCárthaigh's talk on [PID Loops and the Art of Keeping Systems Stable](https://www.youtube.com/watch?v=3AxSwCC7I4s)
+* Marc Brookers [blog](https://brooker.co.za/blog/)
 
 
-### Open
+### Open Source ≠ Open
 
-Kubernetes is perhaps one of the few truly open systems. Where else do you get all the major cloud providers, vendors, end-users and independent individuals all collaborating together for a common purpose?
+Kubernetes is perhaps one of the few truly open systems. Where else do you get all the major cloud providers, vendors and end-users all collaborating together for a common purpose?
 
-Linux is the next closest *open* system. However, while there is a lot of collaboration upstream, most of the value is delivered in forked kernels that are maintained by each vendor. This makes compatibility between vendors possible, not guaranteed in the way Kubernetes is with *free* conformance tests.
+Linux is the next closest *open* system. However, while there is a lot of collaboration upstream, most of the value is delivered in forked kernels that are maintained by each vendor.
+
+This makes compatibility between vendors possible, not *guaranteed* in the way Kubernetes is with *free* conformance tests.
 
 ### Governance
 
-
-
-Governance is usually a synonym for red-tape that slows things down, while not adding much value. The [Kubernetes Governance Model](https://github.com/kubernetes/community/blob/master/governance.md) is refreshing different. It’s designed to respect Conway’s Law, pushing decision making down to the people with the most knowledge, while at the same time providing democratically elected steering that keeps the massive ship sailing in the right direction.
+Governance is usually a synonym for red-tape that slows things down, while not adding much value. The [Kubernetes Governance Model](https://github.com/kubernetes/community/blob/master/governance.md) is refreshingly different. It’s designed to respect Conway’s Law, pushing decision making down to the people with the most knowledge, while at the same time providing democratically elected steering that keeps the massive ship sailing in the right direction.
 
 <div class="centered">
 <img src="/images/k8s-governance.png">
 </div>
-
 
 As Kubernetes matures, the governance model has adapted to its current form, in which it heavily encourages de-coupling of new work into sub-projects owned by Special Interest Groups (SIGs).
 
@@ -102,4 +106,6 @@ As projects grow, RFP's become essential to maintaining stability, consistency a
 
 
 
+## A New Definition
 
+<span class="notification" style="text-align: center; display: block; font-style: italic">Kubernetes is a community solving distributed problems, both technical and procedural </span>
